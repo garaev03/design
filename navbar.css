@@ -1,0 +1,22 @@
+.navbar{
+    background-color: #383e45;
+}
+.Name{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+.section1{
+    background-color: #E9ECEF;
+}
+h1{
+    font-size: 2cm;
+    font-weight:lighter;
+}
+nav>a:hover{
+    color:aliceblue ;
+}
