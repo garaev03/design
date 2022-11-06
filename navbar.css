@@ -20,3 +20,7 @@ h1{
 nav>a:hover{
     color:aliceblue ;
 }
+.dropdown:hover .dropdown-menu {
+    display: block ;
+
+}
