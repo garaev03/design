@@ -1,0 +1,134 @@
+body{
+    margin: 0pt;
+   
+}
+.header{
+    background-color: #343A40;
+    display: flex;
+    height: 60px;
+}
+.navbar{    
+    padding: 5px;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+div>ul{
+    list-style-type: none   ;
+    margin: 0cm;
+    padding: 0cm;
+    display:flex;
+    overflow: hidden;
+}
+
+#nameNav{
+    font-size: large;
+}
+li a{
+    padding: 10px;
+    font-size: medium;
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(0, 84, 229);
+}
+.searchForm{
+    margin: 5px;
+    margin-top: 7px;
+    margin-left: auto;
+    align-items: center;
+    display: flex ;
+}
+input{
+    border-radius: 0%;
+    border:0ch;
+    padding:5px;
+}
+#searchButton{
+    border-radius: 15%;
+    border-style:solid;
+    border-color: green;
+    color:green;
+    padding: 5px;
+    display: inline-block;
+    background-color: #343A40;
+    height: 35px;
+}
+#searchButton:hover{
+    cursor: pointer;
+    color: #E9ECEF;
+    background-color: green;
+}
+.searchButtonDiv{
+    padding-left: 5px;
+}
+.container{
+   padding: 50px ;
+   padding-left: 200px;
+}
+.section1{
+    background-color: #E9ECEF;
+}
+div>h1{
+    font-size: 2cm;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+div>p{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-bottom: 20px;
+}
+#sec1Buton{
+    border-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 0.5cm;
+    color: #E9ECEF;
+    width: 150px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: #0D6EFD;
+}
+#sec1Buton:hover{
+    background-color: #0749ac;
+    cursor: pointer;
+ 
+}
+.containerSec2{
+
+    padding-top: 50px ;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+}
+.cards{
+    margin-right: 20px;
+}
+div>h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+#cardButton{
+    border-style: none;
+    color: #e9ecef;
+    background-color: grey;
+    height: 35px;
+    border-radius: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 0.4cm;
+}
+#cardButton:hover{
+    cursor: pointer;
+    background-color: rgb(100, 99, 99);
+}
+.line{
+    padding-top: 30px;
+    padding-bottom: 50px ;
+    padding-left: 200px;
+    padding-right: 200px;
+}
