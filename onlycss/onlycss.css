@@ -33,6 +33,12 @@ li a{
 li a:hover{
     color: rgb(0, 84, 229);
 }
+#disabled{
+    color: grey;
+}
+#clicked:hover + .dropdownMenu{
+    display: block;
+}
 .searchForm{
     margin: 5px;
     margin-top: 7px;
